@@ -11,9 +11,15 @@
       ]
     }
   },
+  "author": "sarathmc",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarathmc/ng-my-facade-library.git"
+  },
+  "homepage": "https://github.com/sarathmc/ng-my-facade-library",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

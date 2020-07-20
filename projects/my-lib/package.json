@@ -1,6 +1,10 @@
 {
   "name": "@ng/my-facade-library",
   "version": "0.0.1",
+  "author": "sarathmc",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "peerDependencies": {
     "@angular/common": "^10.0.4",
     "@angular/core": "^10.0.4"
