@@ -1,5 +1,5 @@
 {
-  "name": "my-lib",
+  "name": "@ng/my-facade-library",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^10.0.4",
