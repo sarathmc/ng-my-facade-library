@@ -1,6 +1,7 @@
 {
   "name": "@ng/my-facade-library",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "license": "MIT",
   "watch": {
     "build": {
       "patterns": [
@@ -11,13 +12,19 @@
       ]
     }
   },
+  "author": "sarathmc",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://www.npmjs.com/@sarathmc/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarathmc/ng-my-facade-library.git"
+  },
+  "homepage": "https://github.com/sarathmc/ng-my-facade-library",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run copyassets-build && npm run copyassets && npm run copyfiles && copyfiles -U 1 \"projects/my-lib/src/**/*.js\" build",
+    "build": "npm run copyassets-build && npm run copyassets && npm run copyfiles && copyfiles -U 1 \"projects/my-lib/src/**/*.js\" build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "link": "ng link",
@@ -27,8 +34,7 @@
     "copyassets-build": "copyfiles -U 1 \"projects/my-lib/src/**/*.*\" build",
     "copyassets": "copyfiles -U 1 \"projects/my-lib/src/**/*.*\" build-src",
     "build:clean": "del-cli build-src && del-cli build",
-    "build:link": "npm run build:clean && npm run build",
-    "release:npm": "npm run build:link && npm publish build"
+    "build:link": "npm run build:clean && npm run build"
   },
   "private": false,
   "main": "index.js",
