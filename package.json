@@ -1,6 +1,7 @@
 {
   "name": "@ng/my-facade-library",
   "version": "0.0.2",
+  "license": "MIT",
   "watch": {
     "build": {
       "patterns": [
@@ -13,7 +14,7 @@
   },
   "author": "sarathmc",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@sarathmc"
   },
   "repository": {
     "type": "git",
