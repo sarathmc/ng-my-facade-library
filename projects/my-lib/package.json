@@ -1,6 +1,6 @@
 {
-  "name": "ng-my-facade-library",
-  "version": "0.0.3",
+  "name": "my-facade-library",
+  "version": "0.0.4",
   "author": "sarathmc",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

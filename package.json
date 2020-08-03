@@ -1,6 +1,6 @@
 {
-  "name": "ng-my-facade-library",
-  "version": "0.0.3",
+  "name": "my-facade-library",
+  "version": "0.0.4",
   "license": "MIT",
   "watch": {
     "build": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/sarathmc/ng-my-facade-library.git"
   },
   "keywords": [
-    "ng-my-facade-library"
+    "my-facade-library"
   ],
   "homepage": "https://github.com/sarathmc/ng-my-facade-library",
   "scripts": {
