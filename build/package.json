@@ -14,17 +14,20 @@
   },
   "author": "sarathmc",
   "publishConfig": {
-    "registry": "https://www.npmjs.com/@sarathmc/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sarathmc/ng-my-facade-library.git"
   },
+  "keywords": [
+    "ng-my-facade-library"
+  ],
   "homepage": "https://github.com/sarathmc/ng-my-facade-library",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm run copyassets-build && npm run copyassets && npm run copyfiles && copyfiles -U 1 \"projects/my-lib/src/**/*.js\" build --prod",
+    "build": "npm run copyassets-build && npm run copyfiles && copyfiles -U 1 \"projects/my-lib/src/**/*.js\" build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "link": "ng link",
@@ -32,8 +35,7 @@
     "e2e": "ng e2e",
     "copyfiles": "copyfiles package.json build",
     "copyassets-build": "copyfiles -U 1 \"projects/my-lib/src/**/*.*\" build",
-    "copyassets": "copyfiles -U 1 \"projects/my-lib/src/**/*.*\" build-src",
-    "build:clean": "del-cli build-src && del-cli build",
+    "build:clean": "del-cli build",
     "build:link": "npm run build:clean && npm run build"
   },
   "private": false,
